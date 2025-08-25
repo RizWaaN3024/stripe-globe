@@ -1,11 +1,9 @@
-import Image from "next/image";
+import InteractiveGlobe from "./components/InteractiveGlobe";
 
 export default function Home() {
   return (
-    <div className="">
-      <main className="">
-       
-      </main>
+    <div className="w-full h-screen">
+      <InteractiveGlobe />
     </div>
   );
 }
